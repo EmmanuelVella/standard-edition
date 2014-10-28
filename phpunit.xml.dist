@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap = "app/autoload.php" colors = "true">
+    <php>
+        <server name="KERNEL_DIR" value="app/" />
+    </php>
+
+    <testsuites>
+        <testsuite name="Test suite">
+            <directory>src/</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
